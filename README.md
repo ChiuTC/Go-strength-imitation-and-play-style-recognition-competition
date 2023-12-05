@@ -1,0 +1,1 @@
+# Go-strength-imitation-and-play-style-recognition-competition
