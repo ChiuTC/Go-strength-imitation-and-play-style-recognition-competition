@@ -36,6 +36,7 @@ According to environment setup.txt create and activate the conda environment:
 * team4762 final models資料夾中儲存的是我們訓練好的最終模型。
 * team4762 evaluation.ipynb 為評估我們訓練好的最終模型模型之準確率以及輸出submission.csv檔。
 * my Dan Trainning.ipynb、my kyu Trainning.ipynb、my PlayStyle Trainning.ipynb 依序為對三個資料集進行訓練的程式碼。
+* trainning evaluation.ipynb 為用來評估訓練結果之程式碼。
 * my Create Private Upload CSV.ipynb及my Create Public Upload CSV.ipynb 用來輸出訓練完成後各別的submission.csv檔。
 * my_data.py 為資料處理程式碼。
 * my_model.py 為模型實現的程式碼。
