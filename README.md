@@ -32,7 +32,8 @@ According to environment setup.txt create and activate the conda environment:
     pip install ipykernel
     pip install tensorboard
 ## Required download 
-* 請到google drive下載我們訓練好的模型，將team4762 final models資料夾放到本專案資料夾中以用於評估，資料夾中應有三個模型。 
+* 請到google drive下載我們訓練好的模型，將team4762 final models資料夾放到本專案資料夾中以用於評估，資料夾中應有三個模型，  
+  下載後請將資料夾後的時間戳刪除，例如: team4762 final models-20231205T080404Z-001 改為 team4762 final models，以利程式讀取。
   https://drive.google.com/drive/folders/1y6WSu6H1D5sF26FGwu3aaL5-dOll5vH4?usp=sharing
   
       └── Go-strength-imitation-and-play-style-recognition-competition-main
