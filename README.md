@@ -31,6 +31,10 @@ According to environment setup.txt create and activate the conda environment:
     pip install einops==0.3.0
     pip install ipykernel
     pip install tensorboard
+## Required download 
+* 請到google drive下載我們訓練好的模型，並將team4762 final models資料夾放到本專案資料夾中以用於評估。  
+  https://drive.google.com/drive/folders/1y6WSu6H1D5sF26FGwu3aaL5-dOll5vH4?usp=sharing
+* 訓練集測試資料集，也請放到本專案資料夾中
 
 ## Documentation and Code Explanation
 * team4762 final models資料夾中儲存的是我們訓練好的最終模型。
