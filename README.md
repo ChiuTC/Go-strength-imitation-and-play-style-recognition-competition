@@ -32,10 +32,32 @@ According to environment setup.txt create and activate the conda environment:
     pip install ipykernel
     pip install tensorboard
 ## Required download 
-* 請到google drive下載我們訓練好的模型，並將team4762 final models資料夾放到本專案資料夾中以用於評估。  
+* 請到google drive下載我們訓練好的模型，將team4762 final models資料夾放到本專案資料夾中以用於評估，資料夾中應有三個模型。 
   https://drive.google.com/drive/folders/1y6WSu6H1D5sF26FGwu3aaL5-dOll5vH4?usp=sharing
-* 訓練集測試資料集，也請放到本專案資料夾中
-
+  
+      └── Go-strength-imitation-and-play-style-recognition-competition-main
+        └── team4762 final models
+            ├── model2000.pth
+            ├── model2300.pth
+            └── best_PS_model.pth
+* 訓練集測試資料集，也請放到本專案資料夾中，與官方所給的資料夾名稱及存放路徑應該相同。
+  
+      └── Go-strength-imitation-and-play-style-recognition-competition-main
+        └── 29_Private Testing Dataset_Public and Private Submission Template_v2
+          └── 29_Private Testing Dataset_v2
+            ├── dan_test_private.csv
+            ├── kyu_test_private.csv
+            └── play_style_test_private.csv
+        └── 29_Public Testing Dataset_Public Submission Template_v2
+          └── 29_Public Testing Dataset_v2
+            ├── dan_test_public.csv
+            ├── kyu_test_public.csv
+            └── play_style_test_public.csv
+        └── 29_Training Dataset
+          └── Training Dataset
+            ├── dan_train.csv
+            ├── kyu_train.csv
+            └── play_style_train.csv
 ## Documentation and Code Explanation
 * team4762 final models資料夾中儲存的是我們訓練好的最終模型。
 * team4762 evaluation.ipynb 為評估我們訓練好的最終模型模型之準確率以及輸出submission.csv檔。
