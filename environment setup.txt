@@ -1,0 +1,9 @@
+step.1 透過yaml檔下載所需套件並建立名稱為team4762的虛擬環境
+conda env create -f environment.yaml
+
+step.2 啟動虛擬環境
+conda activate team4762
+
+(如果找不到kernel的話 試試看執行下面指令掛接kernel)
+python -m ipykernel install --user --name team4762 --display-name "team4762"
+

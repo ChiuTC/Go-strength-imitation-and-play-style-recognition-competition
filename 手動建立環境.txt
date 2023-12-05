@@ -1,0 +1,32 @@
+如果無法透過environment.yaml建立環境，可透過以下方式手動建立。
+
+step.1 建立虛擬環境
+conda create --name team4762 python=3.7.16
+
+step.2 啟動虛擬環境
+conda activate team4762
+
+step.3 安裝PyTorch及cuda
+pip install torch==1.13.1+cu116 torchvision==0.14.1+cu116 torchaudio==0.13.1 --extra-index-url https://download.pytorch.org/whl/cu116
+
+step.4 安裝tqdm
+pip install tqdm
+
+step.5 安裝scikit-learn
+pip install -U scikit-learn
+
+step.6 安裝numpy
+pip install numpy
+
+step.7 安裝einops
+pip install einops==0.3.0
+
+step.8 安裝ipykernel
+pip install ipykernel
+
+step.9 安裝tensorboard
+pip install tensorboard
+
+(如果找不到kernel的話 試試看執行下面指令掛接kernel)
+python -m ipykernel install --user --name team4762 --display-name "team4762"
+
